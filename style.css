@@ -1,0 +1,99 @@
+*{
+    font-family:   "Lato", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+
+}
+body{
+   height: 100vh;
+   /* //border: 1px solid #000; */
+   background-color:#f9f9f9;
+ font-size: 22px;
+ position: relative;
+
+}
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    width: 450px;
+    background-color: #FFF;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 1px 1pfx 13px rgb(0 0 0 /10%);
+}
+h1{
+   background-color: #cef5e4;
+    padding: 10px 0 ;
+    font-size: 28px;
+    border-radius: 18px;
+
+}
+p{
+    color: #7e7e7e;
+    
+}
+.control{
+    margin: 25px 0;
+}
+input{
+    border: none;
+    outline: none;
+    text-align: center;
+    border-bottom: 1px solid #16a465;
+    color: #16a465;
+    font-size: 28px;
+    margin-top: 20px;
+}
+select{
+    border: none;
+    outline: none;
+    border-top-left-radius: 1px solid #16a465;
+    color: #7e7e7e;
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 11px 34px;
+    border-radius: 25px;
+    width: 75%;
+}
+button#Calculate{
+    color: white;
+    background: #16a465;
+    border: 1px solid transparent;
+    font-size: 17px;
+    border-radius: 25px;
+    padding: 14px 29px;
+    margin: 25px;
+
+
+}
+button#Calculate:hover{
+    color: #16a465;
+    border-color: #16a465;
+    background: white;
+    
+}
+/* input{
+    border: 1px solid transparent;
+    color: #16a465;
+} */
+.totalTip{
+    margin: 2px;
+    font-size: 1.rem;
+    /* color: #0000; */
+    background-color: #16a465;
+    border-radius: 25px;
+    border: 2px solid #16a465;
+    color: white;
+   /* // border: 2px solid green; */
+}
+.totalTip p{
+    color: black;
+}
+.tip{
+    color: black;
+}
